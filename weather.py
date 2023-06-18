@@ -7,12 +7,12 @@ from pyowm.commons.exceptions import APIRequestError
 from pyowm.utils import config as cfg
 from pyowm.utils import timestamps
 
-owm = OWM("421f5d580af9b36676c24f2ca5715278")
+owm = OWM("") # If you use this code, set the openweathermap api key to ' '
 
 pyowmconfig = cfg.get_default_config()
-pyowmconfig['language'] = 'ru'
+pyowmconfig['language'] = 'ru' 
 
-Form, Window = uic.loadUiType("c:/dev/projects/weatherappgui/weather.ui")
+Form, Window = uic.loadUiType("weather.ui")
 
 app = QApplication([])
 window = Window()
