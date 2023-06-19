@@ -33,7 +33,6 @@ For the UI interface I used Qt Designer 💚
         pressure = weather.pressure['press']
         moisture = weather.humidity
         status = weather.detailed_status
-  ```
 ---
 ### ___How to build?___
 To run the code you will need Python on your PC and also install a couple of modules
