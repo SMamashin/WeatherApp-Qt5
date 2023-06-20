@@ -1,5 +1,5 @@
 # WeatherApp-Qt5
-<img src="./images/cover_ui.jpg"  alt="error" title="cover-project">
+<img src="./source/cover_ui.jpg"  alt="error" title="cover-project">
 
 ## ___WeatherApp___ - a local project written to improve knowledge.
 
