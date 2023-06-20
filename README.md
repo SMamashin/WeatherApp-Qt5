@@ -44,7 +44,7 @@ You can also build the code in .exe using <u>Pyinstaller</u>
   * pyinstaller -F weather.py
     
 Compiled .the exe will be waiting for you in the "dist" folder
-
+---
 ### ___ChangeLog___
 Version 5.0
  * Fix .css/.scss import
