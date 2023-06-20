@@ -45,6 +45,16 @@ You can also build the code in .exe using <u>Pyinstaller</u>
     
 Compiled .the exe will be waiting for you in the "dist" folder
 
+### ___ChangeLog___
+Version 5.0
+ * Fix .css/.scss import
+ * Build .exe
+ * Icon app
+ * Build msi installer
+
+Version before Qt - [here](https://github.com/SMamashin/WeatherAppWeb)
+---
+
 ---
 ## Author
 Stepan Mamashin
