@@ -44,6 +44,7 @@ You can also build the code in .exe using <u>Pyinstaller</u>
   * pyinstaller -F weather.py
     
 Compiled .the exe will be waiting for you in the "dist" folder
+
 ---
 ### ___ChangeLog___
 Version 5.0
@@ -51,9 +52,9 @@ Version 5.0
  * Build .exe
  * Icon app
  * Build msi installer
-
+   
 Version before Qt - [here](https://github.com/SMamashin/WeatherAppWeb)
----
+
 
 ---
 ## Author
