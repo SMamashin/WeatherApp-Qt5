@@ -1,18 +1,21 @@
-from PyQt5 import uic
+from PyQt5 import uic, QtGui
 from PyQt5.QtWidgets import QApplication
-from weather_ui import Ui_MainWindow
+from gui.weather_ui import Ui_MainWindow
 from pyowm import OWM
 from pyowm.commons.exceptions import NotFoundError
 from pyowm.commons.exceptions import APIRequestError
 from pyowm.utils import config as cfg
 from pyowm.utils import timestamps
+import time
 
-owm = OWM("") # If you use this code, set the openweathermap api key to ' '
+owm = OWM("421f5d580af9b36676c24f2ca5715278")
 
 pyowmconfig = cfg.get_default_config()
-pyowmconfig['language'] = 'ru' 
+pyowmconfig['language'] = 'ru'
 
-Form, Window = uic.loadUiType("weather.ui")
+Form, Window = uic.loadUiType('C:/Program Files/WeatherApp/gui/weather.ui')
+
+print("Download") 
 
 app = QApplication([])
 window = Window()
@@ -24,14 +27,13 @@ window.show()
 
 def WeatherUI():
     try: # error handler by stepan for ui-app
-
         # line edit get
         city = form.lineEdit.text()
 
         mgr = owm.weather_manager()
         observation = mgr.weather_at_place(city)
         weather = observation.weather
-            
+                 
         tg = weather.temperature("celsius")
         local_temp = tg['temp']
         f_like = tg['feels_like']
@@ -39,6 +41,7 @@ def WeatherUI():
         min_temp = tg['temp_min']
         e_temp = "🌡"
         e_status = " "
+
 
         wind = weather.wind()['speed']
         pressure = weather.pressure['press']
