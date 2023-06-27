@@ -14,6 +14,11 @@ This application is like https://github.com/SMamashin/WeatherApp allows you to g
 
 This version is pure Python 🐍
 For the UI interface I used Qt Designer 💚
+---
+
+## **Preview**
+<img src="./source/ui_view.png"  alt="error" title="ui_view">
+
 
 ---
 ### ___PIP modules that I used in this* version___
