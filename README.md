@@ -58,7 +58,7 @@ Version 5.0
  * Icon app
  * Build msi installer
    
-Version 5.5
+Version 5.5 [12.01.2024]
  * Fix bug with window
  * Try fixed favicon.ico
  * New build.exe
