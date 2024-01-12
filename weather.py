@@ -11,11 +11,11 @@ from pyowm.commons.exceptions import APIRequestError
 from pyowm.utils import config as cfg
 from pyowm.utils import timestamps
 
-owm = OWM("421f5d580af9b36676c24f2ca5715278")
+owm = OWM(" ")
 pyowmconfig = cfg.get_default_config()
 pyowmconfig['language'] = 'ru'
 
-Form, Window = uic.loadUiType('C:/dev/projects/WeatherAppGUI/gui/weather.ui')
+Form, Window = uic.loadUiType('gui/weather.ui')
 app = QApplication([])
 window = Window()
 form = Form()
@@ -27,7 +27,7 @@ states = ['search', 'success', 'OWM_error', 'back']
 
 def WeatherUI():
     local_time = datetime.datetime.now(tz=None)
-    log = open("C:/dev/projects/WeatherAppGUI/logs/logs.txt", "a+")
+    log = open("logs/logs.txt", "a+")
     try: # error handler by stepan for ui-app
         # line edit get\
         city = form.lineEdit.text()
@@ -79,7 +79,7 @@ def WeatherUI():
         return form.label.setText( error )
 
 def BtnBack():
-    log = open("C:/dev/projects/WeatherAppGUI/logs/logs.txt", "a+")
+    log = open("logs/logs.txt", "a+")
     local_time = datetime.datetime.now(tz=None)
     print(states[3])
     log.write(f"\n{local_time} - {states[3]}")
