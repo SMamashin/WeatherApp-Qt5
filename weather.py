@@ -1,4 +1,3 @@
-import time
 import datetime
 import configparser
 from PyQt5 import uic, QtGui
