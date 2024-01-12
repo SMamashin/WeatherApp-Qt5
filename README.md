@@ -57,6 +57,13 @@ Version 5.0
  * Build .exe
  * Icon app
  * Build msi installer
+Version 5.5
+ * Fix bug with window
+ * Try fixed favicon.ico
+ * New build.exe
+ * Logging in console
+ * Logging in /logs/logs.txt/
+ * New button {back}
    
 Version before Qt - [here](https://github.com/SMamashin/WeatherAppWeb)
 
