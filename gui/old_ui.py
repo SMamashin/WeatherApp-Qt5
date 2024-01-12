@@ -15,7 +15,7 @@ label = "<html><head/><body><h6 align=\"center\" style=\" margin-top:0px; margin
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(714, 765)
+        MainWindow.resize(714, 771)
         MainWindow.setMinimumSize(QtCore.QSize(714, 0))
         font = QtGui.QFont()
         font.setFamily("Gilroy")
@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
         MainWindow.setFont(font)
         MainWindow.setMouseTracking(False)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("source/appicon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("C:/dev/projects/WeatherAppGUI/source/appicon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setWindowOpacity(1.0)
         MainWindow.setAutoFillBackground(False)
@@ -129,37 +129,6 @@ class Ui_MainWindow(object):
 "\n"
 "")
         self.label.setObjectName("label")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(250, 680, 211, 71))
-        font = QtGui.QFont()
-        font.setFamily("Gilroy")
-        font.setPointSize(-1)
-        font.setBold(True)
-        font.setWeight(75)
-        self.pushButton_2.setFont(font)
-        self.pushButton_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_2.setStyleSheet("QPushButton {\n"
-"    margin-left: auto;\n"
-"    margin-right: auto;\n"
-"    margin-top: 10px;\n"
-"    border: none;\n"
-"    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 124, 212, 255), stop:1 rgba(4, 144, 136, 255));\n"
-"    color: #fff;\n"
-"    border-radius: 10px;\n"
-"    padding: 20px;\n"
-"    width: 30%;\n"
-"    font-size: 15px;\n"
-"    text-align: center;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    color:#cbe7f5;\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 124, 212, 255), stop:1 rgba(4, 144, 136, 255));\n"
-"}")
-        self.pushButton_2.setObjectName("pushButton_2")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -171,4 +140,3 @@ class Ui_MainWindow(object):
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Введите сюда ваш город"))
         self.pushButton.setText(_translate("MainWindow", "Посмотреть погоду"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><h6 align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">WeatherApp - ещё один бесполезный маленький проект <br/>Приятного использования by </span><a href=\"https://vk.com/evangelion1995\"><span style=\" font-size:12pt; text-decoration: underline; color:#f79797;\">S-Mamashin</span></a><span style=\" font-size:12pt;\"><br/><br/>Чтобы узнать детальный прогноз на данный момент - введите нужный<br/>существующий* город/страну. </span></h6><hr><h6 align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br/></h6><h6 align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; color:#ffffff;\">Версия с WebUI - </span><span style=\" font-size:12pt; color:#f79797;\"><a style=\"text-decoration: underline; color:#f79797;\"  href=\"https://github.com/SMamashin/WeatherApp\">github.com/SMamashin/WeatherApp</a></span></h6><h6 align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; color:#ffffff;\">GUI  версия - </span><span style=\" font-size:12pt; color:#f79797;\"><a style=\"text-decoration: underline; color:#f79797;\" href=\"https://github.com/SMamashin/WeatherApp-Qt5\">github.com/SMamashin/WeatherApp-Qt5</a></span></h6><h6 align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\"><br/><br/><br/></span><span style=\" font-size:9pt;\">Open Source Local Project. <br/>Author - </span><span style=\" font-size:9pt; color:#f79797;\">S-Mamashin/Mamashin.</span></h6></body></html>"))
-        self.pushButton_2.setText(_translate("MainWindow", "На главную"))

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>714</width>
-    <height>771</height>
+    <height>765</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -219,6 +219,53 @@ QPushButton:pressed {
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h6 align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;WeatherApp - ещё один бесполезный маленький проект &lt;br/&gt;Приятного использования by &lt;/span&gt;&lt;a href=&quot;https://vk.com/evangelion1995&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#f79797;&quot;&gt;S-Mamashin&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br/&gt;&lt;br/&gt;Чтобы узнать детальный прогноз на данный момент - введите нужный&lt;br/&gt;существующий* город/страну. &lt;/span&gt;&lt;/h6&gt;&lt;hr&gt;&lt;h6 align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br/&gt;&lt;/h6&gt;&lt;h6 align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Версия с WebUI - &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#f79797;&quot;&gt;&lt;a style=&quot;text-decoration: underline; color:#f79797;&quot;  href=&quot;https://github.com/SMamashin/WeatherApp&quot;&gt;github.com/SMamashin/WeatherApp&lt;/a&gt;&lt;/span&gt;&lt;/h6&gt;&lt;h6 align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;GUI  версия - &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#f79797;&quot;&gt;&lt;a style=&quot;text-decoration: underline; color:#f79797;&quot; href=&quot;https://github.com/SMamashin/WeatherApp-Qt5&quot;&gt;github.com/SMamashin/WeatherApp-Qt5&lt;/a&gt;&lt;/span&gt;&lt;/h6&gt;&lt;h6 align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Open Source Local Project. &lt;br/&gt;Author - &lt;/span&gt;&lt;span style=&quot; font-size:9pt; color:#f79797;&quot;&gt;S-Mamashin/Mamashin.&lt;/span&gt;&lt;/h6&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>680</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gilroy</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: none;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 124, 212, 255), stop:1 rgba(4, 144, 136, 255));
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	width: 30%;
+	font-size: 15px;
+	text-align: center;
+}
+
+QPushButton:hover {
+	color:#cbe7f5;
+}
+
+QPushButton:pressed {
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 124, 212, 255), stop:1 rgba(4, 144, 136, 255));
+}</string>
+    </property>
+    <property name="text">
+     <string>На главную</string>
     </property>
    </widget>
   </widget>
