@@ -57,6 +57,7 @@ Version 5.0
  * Build .exe
  * Icon app
  * Build msi installer
+   
 Version 5.5
  * Fix bug with window
  * Try fixed favicon.ico
